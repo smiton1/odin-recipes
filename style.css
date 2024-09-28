@@ -5,13 +5,18 @@ body{
 
 }
 li{
-}
-.header{
-    text-align: center;
-    color: bisque;
-    background-color: black;
+    margin: 10px;
 }
 
+
+.header, .subheading{
+    color: bisque;
+    padding:20px;
+    text-align: center;
+    margin-top: -15px;
+    margin-left: -20px;
+    margin-right: -20px;
+}
 .image{
     display: block;
     margin-left: auto;
@@ -19,9 +24,11 @@ li{
     height: 300px;
     width: auto;
 }
+.header{
+    background-color: black;
+}
 .subheading{
-    text-align: center;
     font-size: 30px;
-    color: bisque;
+    margin-top: 20px;
     background-color: darkslategray;
 }
